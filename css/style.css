@@ -60,15 +60,6 @@ body {
   padding: 100px 90px;
 }
 
-.main-content-title {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 27px;
-  color: #000000;
-  margin-bottom: 10px;
-}
-
 /* About me section */
 
 .about-me-section {
@@ -108,34 +99,47 @@ body {
   margin: 0 0 50px 0;
 }
 
-.my-projects-list {
+.social-media__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.social-media__list {
   padding: 0 0 0 17px;
   color: #000;
 }
 
-.my-projects-link {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  color: #595959;
+.social-media__item {
+  margin-bottom: 10px;
 }
 
-.my-projects-text {
+.social-media__link {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   color: #595959;
-  margin-left: 2px;
+  text-decoration: none;
 }
 
 /* My studies section */
 
-.my-studies-section {
+.studies-section {
 }
 
-.my-studies-position {
+.studies-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.studies-position {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -143,28 +147,34 @@ body {
   margin: 0 0 10px 0;
 }
 
-.my-studies-list {
+.studies-list {
   padding: 0 0 0 18px;
+  margin-bottom: 10px;
 }
 
-.my-studies-duty {
+.studies-duty {
   width: 525px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   color: #000;
+  margin-bottom: 10px;
 }
 
-.my-studies-duty-item {
+.in-course {
+  margin-bottom: 10px;
+}
+
+.studies-duty-item {
   color: #fb6d3a;
 }
 
-.my-studies-course {
-  margin: 0 15px 0 0;
+.studies-course {
+  margin: 0;
 }
 
-.my-studies-training {
+.studies-training {
   color: #000;
 }
 
