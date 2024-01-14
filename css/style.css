@@ -2,10 +2,15 @@
   --main-color: #000000;
   --secondary-color: #595959;
   --third-color: #ffffff;
-  --accent-color: #fb6d3a;
+  --accent-color: #b8860b;
 }
 
-h1,
+h1 {
+  font-family: "Baskervville", sans-serif;
+}
+h4 {
+  text-decoration: underline;
+}
 h2,
 h3,
 h4,
@@ -24,12 +29,14 @@ ul {
 
 img {
   display: block;
+  width: 420px;
+  height: 700px;
 }
 
-.container {
+/* .container {
   padding-right: 15px;
   padding-left: 15px;
-}
+} */
 
 .link {
   text-decoration: none;
@@ -42,13 +49,18 @@ img {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Libre Baskerville", sans-serif;
   background-color: #f5f7fa;
+}
+
+.icon-svg {
+  width: 60px;
+  height: 30px;
 }
 
 .main-container {
   display: flex;
-  flex-direction: row-reverse;
+
   width: 1200px;
   background-color: var(--third-color);
   margin: 40px auto;
@@ -77,12 +89,11 @@ body {
 }
 
 .about-me-name {
-  font-style: normal;
   font-weight: bold;
   font-size: 45px;
   line-height: 55px;
   color: var(--main-color);
-  margin: 0 0 25px 0;
+  margin: 0 0 25px 5px;
 }
 
 .about-me-information {
@@ -97,7 +108,7 @@ body {
 /* My projects section */
 
 .social-media-section {
-  margin: 0 0 50px 0;
+  margin: 0 0 10px 0;
 }
 
 .social-media__title {
@@ -110,7 +121,8 @@ body {
 }
 
 .social-media__list {
-  padding: 0 0 0 17px;
+  display: flex;
+  padding: 10px 0 0 0;
   color: var(--main-color);
 }
 
@@ -180,8 +192,7 @@ body {
 
 .sidebar-section {
   background-color: #1e2939;
-  width: 370px;
-  padding: 40px 0;
+  width: 420px;
 }
 
 .contacts-section {
@@ -226,6 +237,25 @@ body {
   line-height: 24px;
   color: var(--third-color);
 }
+.contact-list {
+  display: block;
+  margin-top: 25px;
+}
+.contact-link {
+  display: flex;
+  color: var(--accent-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.contact-icon {
+  width: 25px;
+  height: 21px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
 
 .contacts-section-type {
   font-style: normal;
@@ -234,14 +264,6 @@ body {
   line-height: 24px;
   color: var(--third-color);
   margin-right: 7px;
-}
-
-.contacts-section-link {
-  color: var(--accent-color);
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
 }
 
 /* Tech skills section */
