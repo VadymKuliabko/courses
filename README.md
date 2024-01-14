@@ -1,1 +1,1 @@
-# coerses
+# courses
